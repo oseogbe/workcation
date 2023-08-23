@@ -1,0 +1,32 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .form-input {
+    @apply border-none focus:ring-0;
+  }
+
+  /* iconColor: theme('colors.gray.300') */
+  .form-select {
+    @apply border-transparent rounded-lg bg-gray-700 focus:border-none focus:ring-0;
+  }
+
+  .form-radio {
+    @apply bg-gray-900 h-6 w-6 focus:bg-gray-700 border-none focus:ring-0 focus:ring-offset-0;
+  }
+
+  .form-checkbox {
+    @apply bg-gray-900 h-6 w-6 rounded-lg border-none focus:ring-0 focus:ring-offset-0;
+  }
+
+  .aspect-6x5 {
+    @apply relative pb-5/6;
+  }
+
+  .aspect-6x5 > * {
+    @apply absolute inset-0 h-full;
+  }
+}
