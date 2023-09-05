@@ -2,10 +2,10 @@
 import { ref } from 'vue'
 import { vOnClickOutside } from '@vueuse/components'
 
-const logo = ref('/img/logo.svg')
-const searchIcon = ref('/icons/magnifying-glass.svg')
-const menuIcon = ref('/icons/hamburger.svg')
-const closeIcon = ref('/icons/x-mark.svg')
+const logo = ref('./img/logo.svg')
+const searchIcon = ref('./icons/magnifying-glass.svg')
+const menuIcon = ref('./icons/hamburger.svg')
+const closeIcon = ref('./icons/x-mark.svg')
 
 const isOpen = ref(false)
 const toggle = () => (isOpen.value = !isOpen.value)
