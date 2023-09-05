@@ -1,8 +1,8 @@
 <script setup>
 import { ref } from 'vue'
 
-const searchIcon = ref('/icons/magnifying-glass.svg')
-const filterIcon = ref('/icons/funnel.svg')
+const searchIcon = ref('./icons/magnifying-glass.svg')
+const filterIcon = ref('./icons/funnel.svg')
 
 const isOpen = ref(true)
 const toggleFiltersMenu = () => (isOpen.value = !isOpen.value)

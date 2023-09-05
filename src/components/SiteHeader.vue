@@ -7,6 +7,8 @@ const searchIcon = ref('./icons/magnifying-glass.svg')
 const menuIcon = ref('./icons/hamburger.svg')
 const closeIcon = ref('./icons/x-mark.svg')
 
+const userIcon = ref('./img/users/90.jpg')
+
 const isOpen = ref(false)
 const toggle = () => (isOpen.value = !isOpen.value)
 
@@ -77,7 +79,7 @@ const closeDropdown = () => (dropdownOpen.value = false)
           <div class="flex items-center" @click="toggleDropdown">
             <img
               class="w-10 h-10 sm:h-8 sm:w-8 object-cover rounded-full border-2 border-gray-600 xl:border-gray-300 sm:cursor-pointer"
-              src="/img/users/90.jpg"
+              :src="userIcon"
               alt=""
             />
             <span class="ml-3 font-medium text-gray-200 sm:hidden">Isla Connor</span>

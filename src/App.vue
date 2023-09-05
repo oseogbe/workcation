@@ -8,7 +8,7 @@ import PropertyCard from '@/components/PropertyCard.vue'
 const properties = ref([
   {
     title: 'Modern home in city center',
-    imageUrl: '/img/home1.jpeg',
+    imageUrl: './img/home1.jpeg',
     beds: 4,
     baths: 5,
     pricePerWeek: 2500,
@@ -17,7 +17,7 @@ const properties = ref([
   },
   {
     title: 'Quiet living outside the city',
-    imageUrl: '/img/home2.jpg',
+    imageUrl: './img/home2.jpg',
     beds: 6,
     baths: 6,
     pricePerWeek: 4200,
@@ -26,7 +26,7 @@ const properties = ref([
   },
   {
     title: 'Renovated apartment uptown',
-    imageUrl: '/img/home3.jpg',
+    imageUrl: './img/home3.jpg',
     beds: 3,
     baths: 2,
     pricePerWeek: 3000,
@@ -35,7 +35,7 @@ const properties = ref([
   },
   {
     title: 'Modern home in city center',
-    imageUrl: '/img/home4.jpg',
+    imageUrl: './img/home4.jpg',
     beds: 4,
     baths: 3,
     pricePerWeek: 2400,
@@ -44,7 +44,7 @@ const properties = ref([
   },
   {
     title: 'Modern home in city center',
-    imageUrl: '/img/home5.jpg',
+    imageUrl: './img/home5.jpg',
     beds: 3,
     baths: 2,
     pricePerWeek: 2100,
@@ -53,7 +53,7 @@ const properties = ref([
   },
   {
     title: 'Modern home in city center',
-    imageUrl: '/img/home6.jpg',
+    imageUrl: './img/home6.jpg',
     beds: 3,
     baths: 2,
     pricePerWeek: 1200,
