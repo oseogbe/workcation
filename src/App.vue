@@ -73,7 +73,7 @@ const properties = ref([
         <p class="mt-3 text-gray-600">
           Live like the stars in these luxurious Southern California estates.
         </p>
-        <div class="mt-6 sm:flex sm:gap-x-4 sm:overflow-x-auto">
+        <div class="mt-6 sm:flex sm:gap-x-4 sm:overflow-x-auto scrollbar-hide">
           <div
             v-for="(property, i) in properties"
             :key="i"
@@ -93,7 +93,7 @@ const properties = ref([
         <p class="mt-3 text-gray-600">
           Feel at home in our state-of-the-art Georgian lofts and penthouses.
         </p>
-        <div class="mt-6 sm:flex sm:gap-x-4 sm:overflow-x-auto">
+        <div class="mt-6 sm:flex sm:gap-x-4 sm:overflow-x-auto scrollbar-hide">
           <div
             v-for="(property, i) in properties"
             :key="i"
